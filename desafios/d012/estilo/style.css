@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+:root {
+    --fonte-destaque: 'Passion One', 'cursive';
+    --fonte-sub: Verdana, sans-serif;
+    --fonte-padrao: 'Sriracha', 'cursive';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    font-size: 10vw;
+    padding-top: 50px;
+}
+
+header p {
+    font-family: var(--fonte-sub);
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    font-family: var(--fonte-padrao);
+    font-size: 3.5vw;
+    line-height: 1em;;
+    margin-bottom: 6vw;
+}
+
+main .solido {
+    padding: 50px 0px 70px 30px;
+    box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.151);
+}
+
+main .fundo {
+    padding: 50px 0px 70px 30px;
+}
+
+main #img01 {
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte-sub);
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
