@@ -22,6 +22,7 @@ header h1 {
     font-weight: bold;
     font-size: 10vw;
     padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header p {
@@ -44,7 +45,7 @@ main p {
     font-family: var(--fonte-padrao);
     font-size: 3.5vw;
     line-height: 1em;;
-    margin-bottom: 6vw;
+    margin-bottom: 2em;
 }
 
 main .solido {
@@ -56,8 +57,20 @@ main .fundo {
     padding: 50px 0px 70px 30px;
 }
 
+main .fundo > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    padding: 5px;
+    text-shadow: 1px 1px 0px 0px black;
+}
+
 main #img01 {
-    
+    background: url('../imagens/background001.jpg') right center/cover no-repeat fixed;
+}
+
+main #img02 {
+    background: url('../imagens/background002.jpg') center center/cover no-repeat fixed;
 }
 
 footer {
