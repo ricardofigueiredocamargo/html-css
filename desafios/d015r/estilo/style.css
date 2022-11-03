@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
@@ -31,10 +31,10 @@ section#telefone {
    background: url(../imagens/frame-iphone.png) no-repeat; 
 }
 
-iframe#tela {
+iframe#tela { /* !!!!!! */
    position: relative;
    top: 80px;
-   left: 22px;
+   left: 21px;
    height: 471px;
    width: 269px;
 }
@@ -54,6 +54,6 @@ section#redes-sociais img {
 section#redes-sociais img:hover {
    border: 2px solid rgba(255, 255, 255, 0.637);
    transform: translate(-3px, -3px);
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
-   transition: transform 0.3s, border 0.4s;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623); /* !!!!!! */
+   transition: transform 0.3s, border 0.4s; /* !!!!!! */
 }
