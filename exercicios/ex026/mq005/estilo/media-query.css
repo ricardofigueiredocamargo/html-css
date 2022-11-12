@@ -7,7 +7,6 @@
 
     nav {
         display: block;   
-        background-color: rgb(138, 137, 137);
     }
     
     nav > ul > li {
@@ -16,16 +15,7 @@
 
     nav > ul > li > a {
         display: inline-block;
-        background-color: rgb(51, 51, 51);
-        color: white;
-        text-decoration: none;
-        padding: 10px;
-        border-radius: 2px;
-    }
-    
-    nav a:hover {
-        background-color:rgb(138, 137, 137);
-        transition-duration: 0.2s;
+        
     }
 
     main {
