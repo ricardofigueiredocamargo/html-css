@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #5f2c82;
+    --cor1: #49a09d;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+main {
+    background-color: white;
+    width: 250px;
+    height: 85vh;
+    margin: 5vh auto;
+    border-radius: 20px;
+}
+
+div#imagem {
+    height: 200px;
+    width: 250px;
+    background: black url(../imagens/metal.jpg) left bottom/cover no-repeat fixed;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+    padding: 10px;
+    line-height: 1.2em;
+}
