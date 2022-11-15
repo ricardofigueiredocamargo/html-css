@@ -37,6 +37,17 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
-    padding: 10px;
+    padding: 5px 10px;
     line-height: 1.2em;
+}
+
+div#formulario > form > p {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+div#formulario > form > p.digi {
+    background-color: var(--cor0);
 }
