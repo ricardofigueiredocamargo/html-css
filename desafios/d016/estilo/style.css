@@ -37,6 +37,7 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    text-align: justify;
     font-size: 0.8em;
     padding: 5px 10px;
     line-height: 1.2em;
