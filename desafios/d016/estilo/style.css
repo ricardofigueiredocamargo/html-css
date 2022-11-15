@@ -18,9 +18,10 @@ body {
 main {
     background-color: white;
     width: 250px;
-    height: 85vh;
+    height: 530px;
     margin: 5vh auto;
     border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
 }
 
 div#imagem {
@@ -43,11 +44,50 @@ div#formulario > p {
 
 div#formulario > form > p {
     text-align: center;
-    padding: 5px;
-    margin: 5px;
+    padding: 4px;
+    margin: 4px 10px;
     border-radius: 10px;
 }
 
 div#formulario > form > p.digi {
     background-color: var(--cor0);
+}
+
+div#formulario > form > p.digi > input {
+    background-color: #94CFCD;
+    padding: 10px;
+    font-size: 0.85em;
+    border: 0px transparent;
+    border-radius: 10px;
+}
+
+div#formulario > form > p.entrar > input {
+    width: 220px;
+    background-color: #84b9b8;
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: 1px solid #7aaaa9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div#formulario > form > p.entrar > input:hover {
+    background-color: #568b89;
+}
+
+div#formulario > form > p.esqueci > input {
+    width: 220px;
+    background-color: white;
+    color: var(--cor1);
+    padding: 10px;
+    border: 2px solid #7aaaa9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div#formulario > form > p.esqueci > input:hover {
+    background-color: #82ccca;
+    color: white;
 }
