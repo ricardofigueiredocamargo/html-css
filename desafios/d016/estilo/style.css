@@ -4,91 +4,105 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-:root {
-    --cor0: #5f2c82;
-    --cor1: #49a09d;
-}
+/*
+#49a09d (verde)
+#5f2c82 (roxo)
+*/
 
-body {
-    background-color: var(--cor0);
+html, body {
+    background-color: #5f2c82;
 }
 
 main {
-    background-color: white;
-    width: 250px;
-    height: 530px;
-    margin: 5vh auto;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
-div#imagem {
-    height: 200px;
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
     width: 250px;
-    background: black url(../imagens/metal.jpg) left bottom/cover no-repeat fixed;
+    height: 515px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #5f2c82 url(../imagens/metal.jpg) left bottom/cover no-repeat;
+    height: 200px;
     border-radius: 20px 20px 0px 0px;
 }
 
-div#formulario > h1 {
-    text-align: center;
+section#login > div#formulario {
     padding: 10px;
 }
 
-div#formulario > p {
-    text-align: justify;
+section#login > div#formulario > h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+section#login > div#formulario > p {
     font-size: 0.8em;
-    padding: 5px 10px;
-    line-height: 1.2em;
+    text-align: justify;
 }
 
-div#formulario > form > p {
+section#login > div#formulario > form > p {
+    background-color: #5f2c82;
+    width: 100%;
+    height: 45px;
+    margin-top: 3px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+section#login > div#formulario > form > p > input {
+    background-color: #aaf5f2;
+    width: 87%;
+    font-size: 1em;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+section#login > div#formulario > form > input[type=submit] {
+    display: block;
+    background-color: #509e9c;
+    color: white;
+    width: 100%;
+    height: 45px;
+    font-size: 1em;
     text-align: center;
-    padding: 4px;
-    margin: 4px 10px;
-    border-radius: 10px;
-}
-
-div#formulario > form > p.digi {
-    background-color: var(--cor0);
-}
-
-div#formulario > form > p.digi > input {
-    background-color: #94CFCD;
-    padding: 10px;
-    font-size: 0.85em;
-    border: 0px transparent;
-    border-radius: 10px;
-}
-
-div#formulario > form > p.entrar > input {
-    width: 220px;
-    background-color: #84b9b8;
-    color: white;
-    padding: 10px;
-    font-size: 0.9em;
-    font-weight: bold;
-    border: 1px solid #7aaaa9;
+    margin-top: 3px;
+    border: none;
     border-radius: 10px;
     cursor: pointer;
 }
 
-div#formulario > form > p.entrar > input:hover {
-    background-color: #568b89;
+section#login > div#formulario > form > input[type=submit]:hover {
+    background-color: #41817f;
 }
 
-div#formulario > form > p.esqueci > input {
-    width: 220px;
-    background-color: white;
-    color: var(--cor1);
-    padding: 10px;
-    border: 2px solid #7aaaa9;
+section#login > div#formulario > form > a {
+    display: block;
+    color: #284e4d;
+    width: 100%;
+    height: 45px;
+    margin-top: 3px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #509e9c;
     border-radius: 10px;
-    cursor: pointer;
 }
 
-div#formulario > form > p.esqueci > input:hover {
-    background-color: #82ccca;
-    color: white;
+section#login > div#formulario > form > a:hover {
+    background-color: #72f5f0;
 }
