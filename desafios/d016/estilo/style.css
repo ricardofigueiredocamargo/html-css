@@ -32,6 +32,8 @@ section#login {
     height: 515px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -66,7 +68,7 @@ section#login > div#formulario > form > p {
 
 section#login > div#formulario > form > p > input {
     background-color: #aaf5f2;
-    width: 87%;
+    width: calc(100% - 30px);
     font-size: 1em;
     height: 40px;
     border: none;
